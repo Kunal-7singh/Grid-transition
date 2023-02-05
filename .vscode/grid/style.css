@@ -1,0 +1,17 @@
+.grid .circle{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 10px;
+    transition-duration: 0.3s;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.circle:hover{
+    transform: scale(1.15);
+    transition-duration: 0.3s;
+    border-radius: 0px;
+}
